@@ -15,7 +15,7 @@ Data Understanding
 
 The Hair Health Dataset contains 999 entries. Each entry/row is an individual with information covering various factors that may or may not contribute to baldness. These factors are genetics, hormone changes, medical conditions, medications/treatments, nutritional deficiencies, stress, age, hair care, environment, smoking, and weight loss. Though the dataset had no missing or null values, there was some preparation necessary for model use. The column names were simplified for use throughout the project, removing unnecessary spaces. The Id column was removed as. All columns except the age column were encoded as numerical values (using ordinal, replace, and dummy). Finally, though not entirely needed given the models, the data was scaled after being split, due to the age column. 
 
-System and Evaluation 
+Model Evaluation 
 
 The two models used for this project were a Linear Regression model of 500 max iterations and a Random Forest Classifier model using GridSearchCV. In reviewing the results, the former received higher accuracy scores on both the training data and the validation data, being 58.6% and 50%. The latter received 51.4% and 48.5%. Thus, with faster compute times and higher scores, the Linear Regression model was used for evaluating the test data. (To preface, due to the low scores, there were attempts at featuring engineering before using the test data, but they only made marginal changes in score.) It received an accuracy score of 54.5%. While this is better than the validation set and shows that the model is not too overfitted to the training data, the result is still not stellar. 
 
