@@ -1,3 +1,5 @@
+<img src="hairloss1.jpg" alt="Balding Men">
+
 # Hair-Loss
 Machine Learning Project Designed to Predict Hair Loss in an Individual
 
