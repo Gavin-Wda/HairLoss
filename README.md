@@ -19,6 +19,8 @@ Model Evaluation
 
 The two models used for this project were a Linear Regression model of 500 max iterations and a Random Forest Classifier model using GridSearchCV. In reviewing the results, the former received higher accuracy scores on both the training data and the validation data, being 58.6% and 50%. The latter received 51.4% and 48.5%. Thus, with faster compute times and higher scores, the Linear Regression model was used for evaluating the test data. (To preface, due to the low scores, there were attempts at featuring engineering before using the test data, but they only made marginal changes in score.) It received an accuracy score of 54.5%. While this is better than the validation set and shows that the model is not too overfitted to the training data, the result is still not stellar. 
 
+<img src="hair results.PNG" alt="Test Results">
+
 Conclusion
 
 This model, despite attempts at feature engineering, does not show any promising use and no one should be using it to see if they will go bald or not. As mentioned in the overview, the data just did not seem predictive given our target variable. Despite this, I do believe that it can be built upon. I would recommend that more samples be collected with an increase in features. These could include, but are not limited to weight, their father’s hair status, hat usage, sleep satisfaction level, sleep time,  workout time, and use of braids or hair ties. With enough data, this can be something that can be predicted and prevented, benefitting countless people; myself included. - I would love to see this dataset updated for future use, but as it stands right now, there simply are not enough data points to make a sound prediction. 
